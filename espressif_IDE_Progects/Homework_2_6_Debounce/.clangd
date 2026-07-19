@@ -1,0 +1,3 @@
+CompileFlags:
+  CompilationDatabase: G:\learning\Embeded\espressifIde\workspace\Homework_2_6_Debounce\build
+  Remove: [-m*, -f*]
