@@ -1,0 +1,6 @@
+dependencies:
+  u8g2:
+    git: https://github.com/olikraus/u8g2.git
+    version: 2.37.1
+  espressif/onewire_bus: ^1.0.0
+  espressif/ds18b20: '*'
