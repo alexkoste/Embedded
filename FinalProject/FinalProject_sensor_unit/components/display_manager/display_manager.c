@@ -6,7 +6,7 @@
 
 #define TAG "DISPLAY_MGR"
 #define SSD1306_I2C_ADDR 0x3C
-#define NODE_NAME "Node_2" // Задайте унікальну назву для периферійного модуля
+#define NODE_NAME "Node_1" // Унікальна назва для периферійного модуля
 
 static const uint8_t font5x7[][5] = {['0'] = {0x3E, 0x51, 0x49, 0x45, 0x3E},
 									 ['1'] = {0x00, 0x42, 0x7F, 0x40, 0x00},

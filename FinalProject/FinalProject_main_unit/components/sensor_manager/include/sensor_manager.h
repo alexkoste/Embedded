@@ -3,8 +3,8 @@
 
 typedef struct {
 	float temperature;
-	float pressure; // Тиск (в гПа або мм рт. ст., наприклад hPa)
-	float humidity; // Вологість
+	float pressure;
+	float humidity;
 } sensor_data_t;
 
 void sensor_init(void);

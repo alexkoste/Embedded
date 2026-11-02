@@ -155,7 +155,7 @@ void display_refresh(void) {
 	char page_str[48];
 	snprintf(page_str, sizeof(page_str), "%s/%d", name, get_total_devices());
 
-	// Зміщуємо трохи лівіше (наприклад, на x = 60), щоб назва станції повністю
+	// Зміщуємо трохи лівіше (на x = 60), щоб назва станції повністю
 	// помістилася внизу
 	draw_string(60, 54, page_str);
 

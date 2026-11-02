@@ -7,12 +7,12 @@
 #include <string.h>
 
 #define TAG "NODE_NET"
-#define NODE_NAME "Node_2"
+#define NODE_NAME "Node_1"
 
-// MAC-адреса головного модулю (Gateway). Замініть на реальну MAC-адресу вашого
+// MAC-адреса головного модулю (Gateway). Замініть на реальну MAC-адресу
 // головного ESP32-S3!
 static uint8_t gateway_mac[6] = {0xAC, 0xA7, 0x04, 0xE1, 0x0D, 0xEC};
-static uint8_t channel = 9;
+static uint8_t channel = 5;
 
 typedef struct {
 	char name[32];
